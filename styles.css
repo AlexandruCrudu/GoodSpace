@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F5F5F5;
+}
+
+.wrapper {
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  padding: 20px;
+}
+
+/*---------------------------------heading--------------*/
+
+.goodspace {
+  display:flex;
+  font-weight: normal;
+  color:#A0A0A0 ;
+}
+
+.space {
+  color: #282828;
+  font-weight: bold;
+}
+
+.header-menu {
+  display:flex;
+  justify-content: space-between;
+}
+
+
+
+.piramid {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+nav {
+  display: flex;
+}
+
+nav a:hover {
+  color: #232323;
+}
+
+nav li {
+  padding: 5px 8px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display:flex;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: #B0B0B0;
+  display: block;
+  padding: 10px;
+}
+
+
+
+    /*-------------icons---------*/
+
+    .social {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 20px;
+
+    }
+
+    .fb {
+      background: url("https://demo.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/social/facebook.png");
+      background-repeat: no-repeat;
+    }
+
+    .in {
+      background: url("https://demo.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/social/linkedin.png");
+      background-repeat: no-repeat;
+    }
+
+    .tumblr {
+      background: url("https://demo.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/social/tumblr.png");
+      background-repeat: no-repeat;
+    }
+
+    .twitter {
+      background: url("https://demo.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/social/twitter.png");
+      background-repeat: no-repeat;
+    }
+
+    .vimeo {
+      background: url("https://demo.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/social/vimeo.png");
+      background-repeat: no-repeat;
+    }
+
+    /*----------icons-----------*/
+
+/*-----------------------heading------------------------*/
+
+/*---------------------body----------------------------*/
+
+
+.belowimg-wrapper {
+  display: flex;
+  background: grey;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: url('https://demo.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/stunning-text-bg.png');
+}
+
+.flex-container-belowimg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  flex-basis: 570px;
+  flex-wrap: nowrap;
+
+}
+.flex-container-belowimg h1 {
+  font-size: 25px;
+  color: #333333;
+}
+
+.flex-container-belowimg p {
+  color: #8C8C8C;
+  font-size: 18px;
+}
+
+.contactus {
+  background-color:#D2D2D2;
+  text-decoration: none;
+  color:white;
+  padding: 10px 15px;
+}
+
+.contactus:hover {
+  background-color:#1C1C1C;
+}
+
+.three-texts {
+  display: flex;
+  margin-top: 36px;
+  margin-bottom: 40px;
+}
+
+.three-icons {
+  display: inline-block;
+}
+
+.three-headings {
+  display: inline-block;
+  align-items: center;
+  padding: 10px;
+  padding-top:5px;
+}
+
+.img-h3 {
+  display: flex;
+  align-items: center;
+}
+
+.lorem-text {
+  font-size: 13px;
+  padding: 10px 0;
+  color: #91919F;
+  font-family: "Droid Sans";
+  line-height: 1.6;
+}
+
+.learnmore:hover {
+  color:#707070;
+}
+
+.learnmore {
+  text-decoration: none;
+  color: #303030;
+}
+
+.first-text {
+  padding-right: 20px;
+}
+
+.second-banner {
+  background: url('https://demo.goodlayers.com/goodspace/wp-content/themes/goodspace/images/icon/dark/title-bg.png');
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.projects {
+  text-decoration: none;
+  font-size: 13px;
+  color: #272727;
+}
+
+.projects:hover {
+  color:#707070;
+}
+
+.awesomework {
+  font-size: 16px;
+  color: #383838;
+  font-family: Helvetica, sans-serif;
+}
+
+.gallery {
+  margin-top: 25px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.first-gallery-element img {
+  width: 300px;
+  height: 181,5px;
+  margin: 0;
+}
+
+.first-gallery-element {
+  background: #F5F5F5;
+  margin-bottom: 20px;
+}
+
+
+.first-gallery-element h3{
+  color: #585858;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  font-family: Helvetica, sans-serif;
+}
+
+.footer-container {
+  padding: 20px;
+  background: #EAEAEA;
+}
+
+.footer-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  padding: 20px;
+}
+
+.a-tags {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.h3footer {
+  font-weight: normal;
+  margin-bottom: 20px;
+  color :#404040;
+}
+
+.a-tags a {
+  font-size: 13px;
+  text-decoration: none;
+  background: #FFFFFF;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  padding: 3px 8px;
+  color: #404040;
+  border-radius: 5px;
+  font-family: "Droid Sans";
+  border: 1px solid #C0C0C0;
+}
+
+.img-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-footer img{
+  margin: 3px;
+  padding: 3px;
+  padding-left:0;
+}
+
+.footer-section {
+  width: 300px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.street {
+  display: inline;
+  font-size: 13px;
+  color:#686868;
+  letter-spacing: 1px;
+}
+
+.mail-number {
+  letter-spacing: 2px;
+  font-size: 13px;
+  text-decoration: none;
+  color:#383838;
+}
+
+.mail-number:hover {
+  color: #888888;
+}
+
+#numb {
+  letter-spacing: 1px;
+}
+
+#contactus {
+  margin: 15px 0;
+  padding-top: 20px;
+}
+
+#aboutus-text {
+  color :   #909090;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.icon-line img {
+  margin-right: 5px;
+}
+
+.icon-line {
+  margin-bottom: 5px;
+}
+
+.copyright-footer {
+  background: #303030;
+}
+
+.copyright-footer h3{
+  color:#A8A8A8;
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
+}
+
+
+/*----------------------------------dropdown menu -----------------------------*/
+.portfolio-dropdown-wrapper {
+  position :relative;
+  display : inline-block;
+}
+
+.portfolio-dropdown-content {
+  display:none;
+  position : absolute;
+  background-color: white;
+  min-width: 190px;
+  box-shadow: 2px 8px 16px 1px #989898;
+  text-align: left;
+  z-index: 1;
+}
+
+.portfolio-dropdown-content a {
+  display: block;
+  padding: 15px 10px;
+  color: black;
+  font-size: 15px;
+  color: #A0A0A0;
+  text-align: left;
+}
+
+.portfolio-dropdown-wrapper:hover .portfolio-dropdown-content {
+  display:block;
+}
+
+.hr-lines {
+  border:0.1px solid #D0D0D0;
+}
+
+/*---------------------------------------dropdown menu-------------------------*/
